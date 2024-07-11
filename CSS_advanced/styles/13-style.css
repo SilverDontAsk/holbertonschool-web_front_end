@@ -36,12 +36,12 @@ body {
     color: var(--text-color);
 }
 
-a {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
