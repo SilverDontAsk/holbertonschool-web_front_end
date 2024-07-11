@@ -42,8 +42,7 @@ a {
 }
 
 a[href]:visited {
-    color: var(--text-color);
-    font-style: italic;
+    color: italic var(--text-color);
 }
 
 a:hover {
