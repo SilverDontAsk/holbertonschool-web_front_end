@@ -39,23 +39,19 @@ body {
 a {
     color: var(--text-color);
     text-decoration: none;
-    
 }
 
 a[href]:visited {
     color: var(--text-color);
     font-style: italic;
-    
 }
 
 a:hover {
     text-decoration: underline;
-    
 }
 
 a:active {
     background-color: var(--color-light-grey);
-    
 }
 
 .visually-hidden {
