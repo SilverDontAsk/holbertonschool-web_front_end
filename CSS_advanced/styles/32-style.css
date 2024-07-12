@@ -104,7 +104,7 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-    transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
+    transition: background-color var(--transition-duration) var(--transition-cubic-bezier) color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .visually-hidden {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
+    transition: width var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -327,6 +327,7 @@ ul.row {
 
 .card-work:hover .card-outer {
     transform: scale(0.95);
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-image img {
@@ -334,6 +335,7 @@ ul.row {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
